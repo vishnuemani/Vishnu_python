@@ -3,6 +3,7 @@ import numpy as np
 import scipy as sp
 from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
 from sklearn import metrics
 import matplotlib as plt
 %matplotlib inline
@@ -13,7 +14,7 @@ from bs4 import BeautifulSoup
 
 
 
-
+#Data scrape and align:
 
 def read_UCSC(loc,chrom):
 
